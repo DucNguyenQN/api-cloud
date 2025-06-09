@@ -1,7 +1,7 @@
 # ==================== GIAI ĐOẠN 1: BUILD ỨNG DỤNG ====================
 # Sử dụng image Maven với JDK 17 làm môi trường build.
 # Đây là image nặng, chỉ dùng để biên dịch code.
-FROM maven:3.9.6-openjdk-17 AS build
+FROM maven:3.8.5-openjdk-17 AS build
 
 # Đặt thư mục làm việc bên trong container.
 WORKDIR /app
